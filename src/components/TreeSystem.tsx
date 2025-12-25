@@ -118,7 +118,7 @@ const TreeSystem: React.FC = () => {
     }
 
     // --- 照片逻辑：适配 1.jpg, 2.jpg ... ---
-    const photoCount = 31; // 如果照片更多，请修改这个数字
+    const photoCount = 32; // 如果照片更多，请修改这个数字
     const photos: ParticleData[] = [];
     for (let i = 0; i < photoCount; i++) {
       const t = i / (photoCount - 1 || 1);
